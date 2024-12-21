@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema.json",
+  "name": "npm",
+  "installType": "npm",
+  "url": "./npm.install.sh",
+  "command": [
+    "npm"
+  ]
+}

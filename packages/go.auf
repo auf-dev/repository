@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema.json",
+  "name": "go",
+  "installType": "go",
+  "url": "./go.install.sh",
+  "command": [
+    "go"
+  ]
+}

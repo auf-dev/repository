@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema.json",
+  "name": "python",
+  "installType": "python",
+  "url": "./python.install.sh",
+  "command": [
+    "python"
+  ]
+}
