@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "name": "brew",
+  "installType": "script",
+  "url": "./brew.install.sh",
+  "dependencies": {
+    "curl": "latest"
+  },
+  "command": [
+    "brew"
+  ]
+}

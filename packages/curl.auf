@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema.json",
+  "name": "curl",
+  "installType": "curl",
+  "url": "./curl.install.sh",
+  "command": [
+    "curl"
+  ]
+}
