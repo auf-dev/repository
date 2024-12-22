@@ -25,7 +25,7 @@ You need to create a file named xxx.install.sh. Note that this file name must ma
 
 Example file:
 
-```json
+```sh
 if [ <platform> == "windows" ]
 then
   winget install --id Git.Git --version <version> -e --source winget
