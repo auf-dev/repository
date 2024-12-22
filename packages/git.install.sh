@@ -1,6 +1,6 @@
 if [ "<platform>" == "windows" ]
 then
-  winget install --id Git.Git --version <version> -e --source winget
+  winget install --id Git.Git -e --source winget
 elif [ "<platform>" == "macos" ]
 then
   brew install git@<version>
