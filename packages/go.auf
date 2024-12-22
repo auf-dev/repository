@@ -1,7 +1,7 @@
 {
   "$schema": "../schema.json",
   "name": "go",
-  "installType": "go",
+  "installType": "script",
   "url": "./go.install.sh",
   "command": [
     "go"

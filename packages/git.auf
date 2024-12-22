@@ -1,7 +1,7 @@
 {
   "$schema": "../schema.json",
   "name": "git",
-  "installType": "git",
+  "installType": "script",
   "url": "./git.install.sh",
   "dependencies": {
     "brew": "latest"

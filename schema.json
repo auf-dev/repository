@@ -61,18 +61,6 @@
     },
     {
       "if": {
-        "properties": { "installType": { "const": "script" } },
-        "required": ["installType"]
-      },
-      "then": {
-        "required": ["script"],
-        "properties": {
-          "script": { "type": "string" }
-        }
-      }
-    },
-    {
-      "if": {
         "properties": { "installType": { "const": "git" } },
         "required": ["installType"]
       },
