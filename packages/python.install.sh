@@ -1,10 +1,10 @@
-if [ <platform> == "windows" ]
+if [ "<platform>" = "windows" ]
 then
   winget install Python.Python
-elif [ <platform> == "macos" ]
+elif [ "<platform>" = "macos" ]
 then
   brew install python
-elif [ <platform> == "linux" ]
+elif [ "<platform>" = "linux" ]
 then
   brew install python
 fi
